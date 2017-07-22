@@ -12,10 +12,10 @@ An almost universal implementation of A* search algorithm in JavaScript
 
 ### Usage
 ```js
-// 1) You need require the function
+// 1)
 const astar = require('astar-algorithm')
 
-// 2) You should define all callbacks
+// 2)
 let callbacks = {
   // It should return id / key / hash for a node
   id(node) {
@@ -39,12 +39,11 @@ let callbacks = {
   }
 }
 
-// 3) Execute it!
+// 3)
 let path = astar(start, goal, callbacks)
 ```
 
 See examples [there](test/index.js).
-
 
 [npm-image]: https://img.shields.io/npm/v/koa-architect.svg?style=flat
 [npm-url]: https://npmjs.org/package/koa-architect
