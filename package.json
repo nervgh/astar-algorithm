@@ -1,0 +1,42 @@
+{
+  "name": "astar-algorithm",
+  "version": "0.1.0",
+  "homepage": "https://github.com/nervgh/astar-algorithm",
+  "description": "An almost universal implementation of A* search algorithm in JavaScript",
+  "main": "lib/index.js",
+  "repository": "nervgh/astar-algorithm",
+  "author": {
+    "name": "Alexander Zaytsev",
+    "email": "nervgh@gmail.com",
+    "url": "https://github.com/nervgh"
+  },
+  "engines": {
+    "node": ">=8"
+  },
+  "devDependencies": {
+    "istanbul": "^0.4.5",
+    "mocha": "^3.2.0"
+  },
+  "keywords": [
+    "best",
+    "first",
+    "search",
+    "A*",
+    "astar",
+    "search",
+    "graph",
+    "traversal",
+    "pathfinding",
+    "planning",
+    "algorithm"
+  ],
+  "files": [
+    "lib"
+  ],
+  "scripts": {
+    "test": "mocha",
+    "test-cov": "node_modules/.bin/istanbul cover node_modules/.bin/_mocha -- --reporter dot",
+    "test-travis": "node_modules/.bin/istanbul cover node_modules/.bin/_mocha --report lcovonly"
+  },
+  "license": "MIT"
+}
