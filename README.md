@@ -1,7 +1,7 @@
 
 # astar-algorithm
 
-An almost universal implementation of A* search algorithm in JavaScript
+An almost universal implementation of [A* search algorithm](https://en.wikipedia.org/wiki/A*_search_algorithm#Example) in JavaScript.
 
 [![NPM version][npm-image]][npm-url]
 [![Build status][travis-image]][travis-url]
@@ -43,7 +43,7 @@ let callbacks = {
 let path = astar(start, goal, callbacks)
 ```
 
-See examples [there](test/index.js).
+See more examples [there](test/index.js).
 
 [npm-image]: https://img.shields.io/npm/v/koa-architect.svg?style=flat
 [npm-url]: https://npmjs.org/package/koa-architect
