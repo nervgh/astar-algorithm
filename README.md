@@ -45,8 +45,8 @@ let path = astar(start, goal, callbacks)
 
 See more examples [there](test/index.js).
 
-[npm-image]: https://img.shields.io/npm/v/koa-architect.svg?style=flat
-[npm-url]: https://npmjs.org/package/koa-architect
+[npm-image]: https://img.shields.io/npm/v/astar-algorithm.svg?style=flat
+[npm-url]: https://npmjs.org/package/astar-algorithm
 [travis-image]: https://img.shields.io/travis/nervgh/astar-algorithm.svg?style=flat
 [travis-url]: https://travis-ci.org/nervgh/astar-algorithm
 [coveralls-image]: https://img.shields.io/coveralls/nervgh/astar-algorithm.svg?style=flat
