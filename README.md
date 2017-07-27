@@ -21,7 +21,7 @@ let callbacks = {
   id(node) {
     // return {String} or what you want
   },
-  // It checks: is a node is the goal?
+  // It should check: is a node is the goal?
   isGoal(node) {
     // return {Boolean}
   },
@@ -29,11 +29,11 @@ let callbacks = {
   getSuccessors(node) {
     // return {Array} of nodes
   },
-  // g(x). It returns the cost of path between two nodes
+  // g(x). It should return the cost of path between two nodes
   distance(nodeA, nodeB) {
     // return {Number}
   },
-  // h(x). It returns the cost of path from a node to the goal
+  // h(x). It should return the cost of path from a node to the goal
   estimate(node, goal) {
     // return {Number}
   }
