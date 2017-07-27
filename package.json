@@ -1,6 +1,6 @@
 {
   "name": "astar-algorithm",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "homepage": "https://github.com/nervgh/astar-algorithm",
   "description": "An almost universal implementation of A* search algorithm in JavaScript",
   "main": "lib/index.js",
